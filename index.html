@@ -3,18 +3,31 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Student-Run Investment Fund</title>
+  <title>Hans H. Jenny Investment Club</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-white text-gray-900 font-sans">
 
-  <header class="flex justify-between items-center p-6 border-b">
-    <h1 class="text-xl font-bold">Student-Run Investment Fund</h1>
-    <a href="#" class="text-blue-600 font-medium hover:underline">Join Us</a>
+  <!-- Top Navigation Bar -->
+  <header class="flex justify-between items-center px-6 py-4 border-b bg-gray-50">
+    <nav class="flex gap-6 text-sm font-medium">
+      <a href="about.html" class="text-gray-700 hover:text-black">About</a>
+      <a href="exec.html" class="text-gray-700 hover:text-black">Exec Board</a>
+    </nav>
+    <img src="logo.png" alt="Hans H Jenny Logo" class="w-14 h-14 object-contain">
   </header>
 
-  <main class="p-6 space-y-8">
-    <section class="text-center">
+  <main class="p-6 flex flex-col items-center justify-center text-center space-y-6">
+
+    <!-- Title and Join Button -->
+    <h1 class="text-4xl font-bold mt-4">Hans H. Jenny Investment Club</h1>
+    <a href="#" class="mt-2 px-6 py-2 bg-black text-white rounded hover:bg-gray-800 transition">Join Us</a>
+
+    <!-- Center Image -->
+    <img src="homepage-image.png" alt="Club Image" class="w-full max-w-lg rounded shadow-md">
+
+    <!-- Quick Stats Section -->
+    <section class="mt-10 text-center">
       <div class="text-3xl font-semibold">Quick Stats</div>
       <div class="flex justify-center gap-10 mt-4">
         <div><div class="text-xl font-bold">$12.7M</div><div class="text-sm">AUM</div></div>
@@ -23,15 +36,18 @@
       </div>
     </section>
 
+    <!-- Placements Section -->
     <section>
       <h2 class="text-2xl font-semibold mb-2">Placements</h2>
-      <div class="h-40 bg-gray-100 rounded-md flex items-center justify-center text-gray-500">[Placement Logos]</div>
+      <div class="h-40 w-full bg-gray-100 rounded-md flex items-center justify-center text-gray-500">[Placement Logos]</div>
     </section>
 
+    <!-- Meetings Section -->
     <section>
       <h2 class="text-2xl font-semibold mb-2">Meetings</h2>
-      <div class="h-24 bg-gray-100 rounded-md flex items-center justify-center text-gray-500">[Meeting Info]</div>
+      <div class="h-24 w-full bg-gray-100 rounded-md flex items-center justify-center text-gray-500">[Meeting Info]</div>
     </section>
+
   </main>
 </body>
 </html>
